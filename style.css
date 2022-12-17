@@ -1,0 +1,125 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    background-image: linear-gradient(#af67e9,#6565e7);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+h1{
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+}
+
+.image{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    flex-basis: 30%;
+}
+
+.content{
+    flex-grow: 1;
+}
+
+#main-image{
+    position: relative;
+    right: 80px;
+    z-index: 5;
+}
+
+#bg-pattern-desktop{
+    position: relative;
+    right: 1050px;
+    bottom: 70px;
+    z-index: 3;
+}
+
+#box{
+    position: absolute;
+    left: 185px;
+    top: 310px;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.faqs{
+    width: 80%;
+}
+
+p{
+    display: inline;
+    color: #787887;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+p:hover{
+    color: #f47c57;
+    cursor: pointer;
+}
+
+
+hr{
+    border: 0;
+    border-top: 2px solid  #e7e7e9;
+    margin-top: 10px;
+}
+
+.icon-arrow-down{
+    float: right;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+h1{
+    color: #1d1e35;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.faqs-item{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#block-2, #block-3, #block-4, #block-5{
+    display: none;
+}
+
+#block-1{
+    display: none;
+    font-size: 0.95rem;
+    opacity: 0.7;
+    max-width: 50%;
+}
